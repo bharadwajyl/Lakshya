@@ -1,5 +1,4 @@
 /*MAIN*/
-
 .cards{
     flex-wrap:wrap;
     align-items:center;
@@ -46,7 +45,12 @@
     color:var(--dark);
 }
 
-.card label input{
+@media (max-width:920px){
+    .cards{
+        justify-content:center;
+    }
     
+    .card article .btn strong{
+        padding:0.5rem;
+    }
 }
-
