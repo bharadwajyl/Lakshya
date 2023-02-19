@@ -1,0 +1,23 @@
+/*MAIN*/
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+table thead{
+    background-color:var(--dark);
+    color:var(--white);
+}
+
+table tfoot{
+    background-color:rgba(1,1,1,0.2);
+}
+
+table td, table th{
+    padding:0.8rem;
+    border:1px solid rgba(1,1,1,0.2);
+}
+
+.fa-trash:hover{
+    color:red;
+}
